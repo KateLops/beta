@@ -1,0 +1,183 @@
+html{
+    font-family: 'Comfortaa', cursive;
+}
+body{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+/*Стили шапки*/
+
+.header {
+    display: flex;
+    width: auto;
+    height: 60px;
+    justify-content: space-between;
+    align-content: center;
+}
+.headnav:link, .bignav:link {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+.headnav:visited, .bignav:visited { 
+    color: #7c7c7c;
+    text-decoration: none;
+    align-self: center;
+}
+.headcenter {
+    align-self: center;
+}
+.headright, .headleft {
+    width: 280px;
+    align-self: center;
+    font-size: larger;
+}
+.headleft {
+    text-align: start;
+}
+.headright {
+    text-align: end;
+}
+.headdot {
+    margin-right: 2px;
+    margin-left: 4px;
+    align-self: center;
+}
+
+/*Стили баннербокса*/
+
+.bannerbox { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.banner_container {
+    display: flex;
+    text-decoration: none;
+    width: 90%;
+    margin: 5px;
+    border-radius: 5px;
+    height: 400px;
+    color: white;
+}
+
+.banner_content{
+    align-self: flex-end;
+    margin: 5px;
+}
+#banner_tile_1 {
+    background-image: url(/resource/oh_no.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner_tile_2 {
+    background-image: url(/resource/dunno.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner_tile_3 {
+    background-image: url(/resource/suffering.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner_tile_4 {
+    background-image: url(/resource/go_fk_yourself.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_content {
+    padding: 10px;
+    z-index: 10;
+}
+
+/*Стили блоков под баннербоксом*/
+
+.auxbox {
+    display: flex;
+    justify-content: space-between;
+}
+.aux_container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    border-radius: 5px;
+    height: 500px;
+    color: white;
+}
+.aux_content{
+    margin: 15px;
+    margin-right: 25px;
+}
+#aux_tile_1 {
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(233,25,25,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:30%;
+}
+#aux_tile_2 {
+    background-color: lightgrey;
+    width: 70%;
+    text-align: right;
+    font-size: larger;
+    font-weight: bold;
+    color: #7c7c7c;
+    
+}
+.banner_content {
+    
+    padding: 10px;
+    z-index: 10;
+}
+.auxdot {
+    height: 22px;
+    margin-right: 5px;
+}
+
+/*Пикча при пришествии отвала*/
+
+.error {
+    width: 50%;
+    margin: auto;
+}
+
+/*Стиль main. Я хз зачем он, там нет ничего кроме высоты, и то это ничего не даёт*/
+
+main {
+    height: 100%;
+}
+
+/*Стили "подвала"*/
+
+footer{
+    margin-top: 25px;
+    color: #7c7c7c;
+}
+.footer_divider {
+    display: flex;
+    margin-top: 10px;
+}
+.footdot {
+    margin-right: 5px;
+}
+.copy {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.copytext {
+    align-self: center;
+}
+.footer_link_box {
+    align-self: center;
+}
+.footer_link {
+    color: #7c7c7c;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.footer_gotop {
+    color: #7c7c7c;
+    text-decoration: underline;
+    margin-left: 15px;
+}
